@@ -115,7 +115,7 @@ spec:
         summary: Prometheus is dropping samples with duplicate timestamps.
       expr: |
         rate(prometheus_target_scrapes_sample_duplicate_timestamp_total{job="prometheus-k8s",namespace="monitoring"}[5m]) > 0
-      for: 10m
+      for: 1h
       labels:
         severity: warning
     - alert: PrometheusOutOfOrderTimestamps

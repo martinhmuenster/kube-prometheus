@@ -18,8 +18,8 @@
           "subdir": "contrib/mixin"
         }
       },
-      "version": "556447683112b6ccc00b27a1bd0d0a4edc361692",
-      "sum": "W/Azptf1PoqjyMwJON96UY69MFugDA4IAYiKURscryc="
+      "version": "0d0b6f06fa36cabd440efda19a6023b11f139a84",
+      "sum": "RqOj1ITnyH6jm/6qBtEE+Ob5KTk/nKX1zlhj/SWqARE="
     },
     {
       "source": {
@@ -38,7 +38,7 @@
           "subdir": "grafana-builder"
         }
       },
-      "version": "054a2cecd449b88582386cd12a5865daca10439e",
+      "version": "136b7e4fa204d6b4f9f3bfc5d8ace8834d2b4aae",
       "sum": "GRf2GvwEU4jhXV+JOonXSZ4wdDv8mnHBPCQ6TUVd+g8="
     },
     {
@@ -48,8 +48,8 @@
           "subdir": ""
         }
       },
-      "version": "e0dc3563dcbf2e54e0ffe8e83f3f51b237ef33be",
-      "sum": "egi2xHFco6VkCxettVvAju/yrsGnB3AFoPpCGKfWhtU="
+      "version": "baf5e20d3275ebed214eaa26a0377ec3bf2b8897",
+      "sum": "U1JPaRwc6xDBkE30bbEpT2j0vAJvrm5GXhCIZqLLLWU="
     },
     {
       "source": {
@@ -58,7 +58,7 @@
           "subdir": "lib/promgrafonnet"
         }
       },
-      "version": "e0dc3563dcbf2e54e0ffe8e83f3f51b237ef33be",
+      "version": "baf5e20d3275ebed214eaa26a0377ec3bf2b8897",
       "sum": "zv7hXGui6BfHzE9wPatHI/AGZa4A2WKo6pq7ZdqBsps="
     },
     {
@@ -68,7 +68,7 @@
           "subdir": "jsonnet/kube-state-metrics"
         }
       },
-      "version": "d94da5292d7e213c5b2f3f508d162e6044a68ca9",
+      "version": "7594278d264753220921eef1a59af4927b375573",
       "sum": "S5qI+PJUdNeYOv76jH5nxwYS9N6U7CRxvyuB1wI4cTE="
     },
     {
@@ -78,7 +78,7 @@
           "subdir": "jsonnet/kube-state-metrics-mixin"
         }
       },
-      "version": "d94da5292d7e213c5b2f3f508d162e6044a68ca9",
+      "version": "7594278d264753220921eef1a59af4927b375573",
       "sum": "u8gaydJoxEjzizQ8jY8xSjYgWooPmxw+wIWdDxifMAk="
     },
     {
@@ -88,7 +88,7 @@
           "subdir": "jsonnet/mixin"
         }
       },
-      "version": "1c35faa561f2557fa156438c13c5763d3b6ac6c4",
+      "version": "f0ddd0a0caf5099fcf2bbe61a9ae9e78a1121259",
       "sum": "6reUygVmQrLEWQzTKcH8ceDbvM+2ztK3z2VBR2K2l+U=",
       "name": "prometheus-operator-mixin"
     },
@@ -99,7 +99,7 @@
           "subdir": "jsonnet/prometheus-operator"
         }
       },
-      "version": "1c35faa561f2557fa156438c13c5763d3b6ac6c4",
+      "version": "f0ddd0a0caf5099fcf2bbe61a9ae9e78a1121259",
       "sum": "eHJp7oFWvBEsSmwoRML356DLK80n7rRt8XKRZ+YawvQ="
     },
     {
@@ -109,7 +109,7 @@
           "subdir": "doc/alertmanager-mixin"
         }
       },
-      "version": "fd0929ba9fc58737a9c91f24771862692fa72d17",
+      "version": "8491f816296b26bd4efe3aa4164fe72a7cd329de",
       "sum": "pep+dHzfIjh2SU5pEkwilMCAT/NoL6YYflV4x8cr7vU=",
       "name": "alertmanager"
     },
@@ -130,7 +130,7 @@
           "subdir": "documentation/prometheus-mixin"
         }
       },
-      "version": "d8219f29f4fec899edde3d3055acf3013dc3f77a",
+      "version": "167dfa19afa3c151b9f35991406877dd98507fa9",
       "sum": "G3mFWvwIrrhG6hlPz/hQdE6ZNSim88DlbSDJN7enkhY=",
       "name": "prometheus"
     },
@@ -141,7 +141,7 @@
           "subdir": "mixin"
         }
       },
-      "version": "8f5021166d21005f9a63c3c44fd876113fd0c05d",
+      "version": "e53a1f70f947fe83d4d232c9e2887911d390d03c",
       "sum": "cajthvLKDjYgYHCKQU2g/pTMRkxcbuJEvTnCyJOihl8=",
       "name": "thanos-mixin"
     },

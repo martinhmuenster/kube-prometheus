@@ -22,15 +22,36 @@ As a basis, all examples in this guide are based on the base example of the kube
 
 [embedmd]:# (../example.jsonnet)
 ```jsonnet
+local filter = {
+  prometheus+: {
+    prometheusRule+: {
+      spec+: {
+        groups: std.map(
+          function(group)
+            if group.name == 'prometheus' then
+              group {
+                rules: std.map(
+                  function(rule)
+                    if rule.alert == "PrometheusDuplicateTimestamps" then
+                      rule {
+                        "for": '1h',
+                      }
+                    else
+                      rule,
+                    group.rules
+                )
+              }
+            else
+              group,
+          super.groups
+        ),
+      }
+    }
+  },
+};
+
 local kp =
-  (import 'kube-prometheus/main.libsonnet') +
-  // Uncomment the following imports to enable its patches
-  // (import 'kube-prometheus/addons/anti-affinity.libsonnet') +
-  // (import 'kube-prometheus/addons/managed-cluster.libsonnet') +
-  // (import 'kube-prometheus/addons/node-ports.libsonnet') +
-  // (import 'kube-prometheus/addons/static-etcd.libsonnet') +
-  // (import 'kube-prometheus/addons/custom-metrics.libsonnet') +
-  // (import 'kube-prometheus/addons/external-metrics.libsonnet') +
+  (import 'kube-prometheus/main.libsonnet') + filter +
   {
     values+:: {
       common+: {
